@@ -7,6 +7,7 @@
  * # AboutCtrl
  * Controller of the mytodoApp
  */
+
 angular.module('mytodoApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
@@ -15,3 +16,4 @@ angular.module('mytodoApp')
       'Karma'
     ];
   });
+
